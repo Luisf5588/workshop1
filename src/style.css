@@ -1,0 +1,126 @@
+body{
+    font-family: sans-serif;
+    width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.header{
+    background-color: antiquewhite;
+    margin-bottom: 30px;
+}
+
+.barra-inicial{
+    display: flex;
+    align-items: center;
+    height: 100px;
+    text-align: center;
+    }
+
+.titulo-principal{
+    width: 50%;
+    
+}
+
+.contenedor-menu{
+    width: 50%;
+    background-color: burlywood;
+}
+
+.menu-principal{
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    
+}
+
+.menu-principal__item > a{
+    text-decoration: none;
+}
+
+.menu-principal__item > a:hover{
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+.lenguaje{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+
+.servicios{
+    
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    margin-bottom: 30px;
+    border: 5px skyblue solid;
+   
+    
+}
+
+.servicios__contenedor{
+    display: flexbox;
+    padding: 10px;
+    background-color: lightblue;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+
+
+
+.noticias{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: justify;
+    margin-bottom: 30px;
+    border: 5px skyblue solid;
+}
+
+.noticia{
+    display: flex;
+    background-color: lightseagreen;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+   }
+.texto-noticias{
+    padding: 8px;
+}
+
+
+.miembros{
+    display: flex;
+    justify-content: space-evenly;
+    border: 5px skyblue solid;
+    margin-bottom: 30px;
+    text-align: center;
+   
+}
+
+.miembros__contenedor{
+    display: flexbox;
+    padding: 10px;
+    background-color: mediumpurple;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+
+
+
+.footer{
+    background-color: moccasin;
+    display: flex;
+    padding: 10px;
+    justify-content: space-evenly;
+    border: 5px skyblue solid;
+    margin-bottom: 30px;
+    
+}
